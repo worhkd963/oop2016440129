@@ -1,0 +1,43 @@
+
+public class Twenty_Five {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int i, j, k;
+		for(i=0; i<11; i++) {
+			if(i<6) {
+				for(j=0; j<11-2*i; j++)
+					System.out.print("*");
+				System.out.println();
+			}
+			else {
+				for(j=0; j<2*i-9; j++)
+					System.out.print("*");
+				System.out.println();
+			}
+		}
+		System.out.println("-------------------")
+
+		for(i=0; i<11; i++) {
+			if(i<6) {
+				for(j=0; j<11-2*i; j++) {
+					if(j<6-i)
+						System.out.print(5-i-j);
+					else
+						System.out.print(j-5+i);
+				}
+				System.out.println();
+			}
+			else {
+				for(j=0; j<2*i-9; j++) {
+					if(j<i-4)
+						System.out.print(-j-5+i);
+					else
+						System.out.print(j+5-i);
+				}
+				System.out.println();
+			}
+		}
+
+	}
+}
