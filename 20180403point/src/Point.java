@@ -20,6 +20,10 @@ public class Point {
 		this.y = yy;
 	}
 	
+	public void print() {
+		System.out.println("("+this.getX() + ", " + this.getY() + ")");
+	}
+	
 	public double distance() {
 		//반환할 변수 선언
 		double result; // 지역변수 scope은 메소드 내부이다.
