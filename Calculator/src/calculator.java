@@ -110,24 +110,5 @@ public class calculator extends JFrame implements ActionListener {
 	protected int Calculate(int a, int b, String s) {
 		return a+b;
 	}
-//		try {
-//			tempName = e.getActionCommand();
-//            if (tempName.equals("CE")) {
-//            	textField.setText("");
-//                return;
-//            }
-//            tempString = textField.getText();
-//            
-//            if (tempString.equals("0")) 
-//                tempString = "";
-//            
-//            if((tempName.equals("+") && !is_ready)){
-//            	tempNum1 = Integer.parseInt(tempString);
-//            	is_ready = true;
-//            	who = tempName;
-//            }
-//		}
-//		
-//	}
 
 }
