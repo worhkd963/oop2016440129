@@ -6,7 +6,7 @@ public class Test {
 		String str = new String("Hello");
 		
 		box.set(str);
-		//int : primitive type Integer : reference type
+		//int : primitive type, Integer : reference type
 		Integer i ;
 		//i = 3;
 		i = new Integer(3);
