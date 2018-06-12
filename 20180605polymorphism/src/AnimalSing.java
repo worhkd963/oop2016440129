@@ -13,7 +13,7 @@ public class AnimalSing {
 		Animal ele;
 		Iterator<Animal> e = list.iterator();
 		while(e.hasNext()) {
-			ele = e.next();
+			ele = (Animal)e.next();
 			ele.sing(); // Polymorphism
 		}
 	}
