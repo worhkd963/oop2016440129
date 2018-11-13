@@ -17,6 +17,7 @@ int main(){
 	printf("a[0] = %d\n", a[0]);
 	printf("a[0] = %d\n", *ptr);
 
+	//포인터변수 이름을 배열 이름으로 사용할 수 있다.
 	printf("a[0] = %d\n", ptr[0]);
 	printf("a[1] = %d\n", ptr[1]);
 	printf("a[2] = %d\n", ptr[2]);

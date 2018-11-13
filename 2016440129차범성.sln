@@ -87,6 +87,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20181106SWAP", "20181106SWA
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20181106pointerandarray", "20181106pointerandarray\20181106pointerandarray.vcxproj", "{0A0C7438-A94C-4B69-A20C-C6B9DB3C3E90}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20181113arraypointer", "20181113arraypointer\20181113arraypointer.vcxproj", "{C872FD48-D126-4B4F-ACD6-99E05E602738}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20181113selectionsort", "20181113selectionsort\20181113selectionsort.vcxproj", "{E41E451C-463B-4065-8F03-DF2180CE6EC1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -265,6 +269,14 @@ Global
 		{0A0C7438-A94C-4B69-A20C-C6B9DB3C3E90}.Debug|Win32.Build.0 = Debug|Win32
 		{0A0C7438-A94C-4B69-A20C-C6B9DB3C3E90}.Release|Win32.ActiveCfg = Release|Win32
 		{0A0C7438-A94C-4B69-A20C-C6B9DB3C3E90}.Release|Win32.Build.0 = Release|Win32
+		{C872FD48-D126-4B4F-ACD6-99E05E602738}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C872FD48-D126-4B4F-ACD6-99E05E602738}.Debug|Win32.Build.0 = Debug|Win32
+		{C872FD48-D126-4B4F-ACD6-99E05E602738}.Release|Win32.ActiveCfg = Release|Win32
+		{C872FD48-D126-4B4F-ACD6-99E05E602738}.Release|Win32.Build.0 = Release|Win32
+		{E41E451C-463B-4065-8F03-DF2180CE6EC1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E41E451C-463B-4065-8F03-DF2180CE6EC1}.Debug|Win32.Build.0 = Debug|Win32
+		{E41E451C-463B-4065-8F03-DF2180CE6EC1}.Release|Win32.ActiveCfg = Release|Win32
+		{E41E451C-463B-4065-8F03-DF2180CE6EC1}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
