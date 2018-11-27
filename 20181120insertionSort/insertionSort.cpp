@@ -8,25 +8,25 @@ void swapElement(int *arr, int i, int j){
 	arr[j] = temp;
 }
 
-//void insertElement(int *arr, int ele){
-//	while(ele>0){
-//		if(arr[ele-1]>arr[ele])
-//			swapElement(arr, ele-1,ele);
-//		else
-//			break;
-//		ele--;
-//	}
-//}
 void insertElement(int *arr, int ele){
-	int i = ele-1;
-	int remember = arr[ele];
-	while(i>=0 && arr[i]>remember){
-		swapElement(arr, i+1, i);
-//		arr[i+1]=arr[i];
-//		arr[i]=remember;
-		i--;
+	while(ele>0){
+		if(arr[ele-1]>arr[ele])
+			swapElement(arr, ele-1,ele);
+		else
+			break;
+		ele--;
 	}
 }
+//void insertElement(int *arr, int ele){
+//	int i = ele-1;
+//	int remember = arr[ele];
+//	while(i>=0 && arr[i]>remember){
+//		swapElement(arr, i+1, i);
+////		arr[i+1]=arr[i];
+////		arr[i]=remember;
+//		i--;
+//	}
+//}
 
 void insertionSort(int *arr, int length){
 	int i;
