@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <Windows.h>
+#include <stdlib.h>
 
 //구조체 선언 : 기존의 데이터 타입으로 구성하여 새로운 데이터 타입을 선언한다.
 //struct complex{
@@ -34,15 +35,41 @@ void convertToconjugate(Complex *ptr){
 	ptr->imag = -1*ptr->imag;
 }
 
-//함수 returnConjugate()
+////함수 returnConjugate() Version 1
+////입력 : 복소수 포인터
+////출력 : 복소수 변수
+////부수효과 : 없음
+//Complex* returnConjugate(Complex * ptr){
+//	Complex temp;
+//	temp.real = ptr->real;
+//	temp.imag = -1*ptr->imag;
+//	return &temp;
+//}
+
+//함수 returnConjugate() Version 2 : Good
 //입력 : 복소수 포인터
 //출력 : 복소수 변수
 //부수효과 : 없음
 Complex* returnConjugate(Complex * ptr){
-	Complex *temp=(Complex*)malloc(sizeof(Complex));
-	temp->real = ptr->real;
-	temp->imag = -1*ptr->imag;
-	return temp;
+	Complex *tempPtr;
+	tempPtr = (Complex*) malloc(sizeof(Complex));
+
+	tempPtr->real = ptr->real;
+	tempPtr->imag = -1*ptr->imag;
+	return tempPtr;
+}
+
+Complex* returnPlusComplex(Complex *ptr1, Complex *ptr2){
+	Complex * temp1;
+	Complex * temp2;
+	temp1 = (Complex*) malloc(sizeof(Complex));
+	temp2 = (Complex*) malloc(sizeof(Complex));
+
+	temp1->real = ptr1->real;
+	temp1->imag = ptr1->imag;
+
+	temp2->real = ptr2->real;
+	temp2->imag = ptr2->imag;
 }
 int main(){	
 	myIntType count = 10;// ==> int count = 10;
