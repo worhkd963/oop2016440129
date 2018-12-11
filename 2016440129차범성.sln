@@ -101,6 +101,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20181204aaaa", "20181204aaa
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20181204LinkedList", "20181204LinkedList\20181204LinkedList.vcxproj", "{B408A3CE-2B3C-4DC9-BC91-70FF1C670699}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20181211LinkedList2", "20181211LinkedList2\20181211LinkedList2.vcxproj", "{9F788773-7C13-47D4-A3A1-202217F19141}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -307,6 +309,10 @@ Global
 		{B408A3CE-2B3C-4DC9-BC91-70FF1C670699}.Debug|Win32.Build.0 = Debug|Win32
 		{B408A3CE-2B3C-4DC9-BC91-70FF1C670699}.Release|Win32.ActiveCfg = Release|Win32
 		{B408A3CE-2B3C-4DC9-BC91-70FF1C670699}.Release|Win32.Build.0 = Release|Win32
+		{9F788773-7C13-47D4-A3A1-202217F19141}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9F788773-7C13-47D4-A3A1-202217F19141}.Debug|Win32.Build.0 = Debug|Win32
+		{9F788773-7C13-47D4-A3A1-202217F19141}.Release|Win32.ActiveCfg = Release|Win32
+		{9F788773-7C13-47D4-A3A1-202217F19141}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
